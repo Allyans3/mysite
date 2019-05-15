@@ -1,0 +1,80 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height:100%;
+    /* background: linear-gradient(to top, #232526, #414345); */
+    background: #404244 !important;
+}
+
+.landing-page {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.landing-page::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/math.jpg) no-repeat;
+    background-size: cover;
+    opacity: .3;
+    animation: anim 50s linear infinite;
+}
+
+@keyframes anim {
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.page-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.page-content h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.page-content p {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.page-content a {
+    display: inline-block;
+    color: white;
+    border: 2px solid white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: 0.4s linear;
+    font-weight: 500;
+}
+
+.page-content a:hover {
+    color: black;
+    text-decoration: none;
+    background: white;
+}

@@ -1,0 +1,22 @@
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.body_page {
+    padding-top: 110px;
+	position: relative;
+}
+.about-text {
+    padding-top: 50px;
+	text-align: center;
+}
+
+#head_descr {
+	color: white;
+}
+
+input[type=text] {
+  width: 50%;
+}

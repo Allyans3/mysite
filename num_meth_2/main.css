@@ -1,0 +1,33 @@
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.body_page {
+    padding-top: 70px;
+	position: relative;
+}
+
+.about-text {
+    padding-top: 30px;
+	text-align: center;
+}
+
+#head_descr {
+	color: white;
+}
+
+table {
+    table-layout: fixed;
+    word-wrap: break-word;
+	text-align: center;
+}
+
+#tableB {
+    margin-left: -25px;
+}
+
+#cond {
+    margin: 25px 15px 15px ;
+}
